@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(imges/backgrnd.jpg);
+   backface-visibility: hidden;
+}
+
+#nav_bar{
+    background-color: #daac00;
+    padding: 0 30px;
+   
+}
+#over{
+    width: 100%;
+}
+.nav-item {
+    font-size: 20px;
+    /* color: white !important; */
+    font-weight: 500;
+    padding-left: 30px;
+   
+    
+}
+#over{
+    overflow: hidden;
+}
+
+#btn-1{
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 5px 4px 3px #918f8f;
+    position: relative;
+    left: 47px;
+    
+}
+#btn-1::placeholder{
+    color: white;
+}
+#search-btn{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border: 0px;
+    border-radius: 0px;
+
+}
+@media screen  and (max-width:995px){
+    #nav_bar{
+       /* padding-right: 0px; */
+     padding-bottom: 30px;
+     position: relative;
+     left: -15px;
+     
+
+}
+}
+/* second secction banner*/
+#banner{
+    background-color: #fcc302;
+    /* width: 100%; */
+    
+}
+#banner-text{
+    padding-top: 100px;
+}
+#banner-text h1{
+    color: white;
+    font-size: 70px;
+    margin-block: 20px;
+}
+#banner-text p{
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+#bannerbtn1{
+    background-color: #00bec9;
+    color: white;
+    border: 2px solid #00bec9;
+}
+#bannerbtn2{
+    /* background-color: white; */
+    color: white;
+    border: 2px solid white;
+    margin-left: 10px;
+}
+#banner-img img{
+    box-shadow: px 5px 4px #ccc;
+}
+@media screen  and (max-width: 1290px){
+    #banner-text h1{
+        font-size: 60px;
+       
+    }
+}
+@media screen  and (max-width: 1120px){
+    #banner-text h1{
+        font-size:40px;
+       
+    }
+}
+@media screen  and (max-width: 910px){
+    #banner{
+        padding-block: 30px;
+    }
+    #banner-img img{
+        padding-top: 30px;
+    }
+    }
+
+@media screen  and (max-width: 768px){
+    #banner-text{
+       font-size: 20px;
+       margin-bottom: 30px;
+    }
+    #banner-img img{
+        padding-top: 70px;
+    }
+}
+
+
+/* services section */
+#service-work{
+    padding-block: 30px;
+}
+#servicetext{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+#servicetext  h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+#servicetext p{
+   text-transform: capitalize;
+   margin-bottom: 20px;
+}
+#btn-3{
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+    color: white;
+
+}
+#serviceimg img{
+    padding-top: 30px;
+    width: 500px;
+    border-bottom: 10px solid #fcc302;
+}
+@media screen  and (max-width: 991px){
+    #servicetext  h1{
+        font-size: 40px;
+      
+    }
+}
+@media screen  and (max-width: 768px){
+    #servicetext  h1{
+        font-size: 20px;
+      
+    }
+    #serviceimg img{
+        padding-top: 70px;
+        width: 700px;
+        }
+    }
+/* anothers section */
+#t-section{
+    background-image: url("/imges/backgrnd.jpg");
+    padding-block: 70px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* cards section */
+#blogs-section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#bloghead h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#bloghead p{
+    font-size: 20px;
+    
+}
+
+#blog-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cards{
+    padding: 15px;
+    border: 1px solid rgb(185, 185, 185);
+    border-top: none;
+}
+/* foootersection */
+#footer{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+#footer-box{
+    padding: 5px;
+    position: relative;
+    left: 35px;
+    border: none;
+    border-radius: none;
+    background-color: #fcc302;
+    margin-bottom: 10px;
+    max-width: 300px;
+}
+#footer-submit{
+    padding: 5px;
+    background-color: #00bec9;
+    position: relative;
+    left: 30px;
+    border: none;
+    border-radius: none;
+    /* padding-bottom: 10px; */
+}
+@media screen  and (max-width: 767px){
+    #icon-section{
+        margin-right: 50px;
+    }
+    #footer-submit{
+        padding: 5px;
+    }
+}
